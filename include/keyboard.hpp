@@ -81,7 +81,7 @@ namespace keyboard
 
     void operator()(
       const std::string& name,
-      const state_t = state_t::press ) const
+      const state_t = state_t::press) const
     {
       operator()(keys_db_t::instance().get_key_code_from_db(name));
     }
